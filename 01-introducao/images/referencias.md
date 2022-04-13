@@ -7,3 +7,5 @@
 * __ciclo-devops.jpg__: https://www.haapit.com/devops
 
 * __funcionamento-terraform.jpg__: https://www.terraform.io/
+
+* __funcionamento-terragrunt.jpg__: https://terragrunt.gruntwork.io/
