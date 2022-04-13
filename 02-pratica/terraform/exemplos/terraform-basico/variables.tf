@@ -13,7 +13,7 @@ variable "instance_ami" {
 variable "instance_type" {
   type    = string
   default = "t2.micro"
-  decription = "Type for the instance"
+  description = "Type for the instance"
 }
 
 variable "key_name" {

@@ -28,7 +28,7 @@ No modules.
 | <a name="input_aws_region"></a> [aws\_region](#input\_aws\_region) | Region of the AWS | `string` | `"us-east-1"` | no |
 | <a name="input_instance_ami"></a> [instance\_ami](#input\_instance\_ami) | AMI for the instance | `string` | `"ami-04505e74c0741db8d"` | no |
 | <a name="input_instance_tags"></a> [instance\_tags](#input\_instance\_tags) | Tags for the instance | `map(string)` | <pre>{<br>  "CreatedBy": "João Frois",<br>  "Description": "Instancia criada pelo terrform",<br>  "ManagedBy": "Terraform",<br>  "Name": "Terraform Basico"<br>}</pre> | no |
-| <a name="input_instance_type"></a> [instance\_type](#input\_instance\_type) | n/a | `string` | `"t2.micro"` | no |
+| <a name="input_instance_type"></a> [instance\_type](#input\_instance\_type) | Type for the instance | `string` | `"t2.micro"` | no |
 | <a name="input_key_name"></a> [key\_name](#input\_key\_name) | Key name for the instance | `string` | `"terraformFrois"` | no |
 
 ## Outputs

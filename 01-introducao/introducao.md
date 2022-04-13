@@ -47,3 +47,113 @@ A adoção da Cultura DevOps traz códigos benefícios agregados às suas práti
 ## Ciclo DevOps
 
 ![Figura 03 - O Ciclo DevOps. ](images/ciclo-devops.jpg)
+
+## Praticas do DevOps
+
+## CI/CD (Integração Contínua e Entrega Contínua)
+
+# Infraestrutura Como Código (IaC)
+
+O que é conhecido como Infraestrutura como Código nada mais é que o gerenciamento e provisionamento da infraestrutura necessaria a um software por meio de ferramentas que possibilitem codificá-la ao invez de depender de processos manuais.
+
+Atraves de arquivos de configuração, que especificam os recursos que a compõem, há uma maior facilidade em de modificar aspectos da infraestrutura, promomendo assim uma maior escalabilidade e controle da mesma.
+
+## Abordagens
+
+Para se implementar uam IaC existem dois diferentes tipos de abordagens, sendo elas:
+
+* __Declarativa:__ Essa abordagem define o estado desejado da infraestrutura e seus recursos. Em seu funcionamento essa abordagem mantem uma lista do estado atual dos objetos criados e há compara a cada mudança com o estado desejado;
+
+* __Imperativa:__ Essa abordagem define os comandos  especificos para se chegar na configuração desejada da infraestrutura. Dessa forma, esses comandos são listados e executados em uma determinada ordem para que o resultado final seja desejado.
+
+## Vantagens 
+
+A codificação da infraestrutura tras consigo vantagens que superam apenas a escalabilidade da mesma, sendo essas:
+
+* Redução de custos;
+* Aumento na velocidade das implantações;
+* Redução de erros;
+* Melhoria na consistência da infraestrutura;
+* Eliminação de desvios de configuração;
+* Exemplos de ferramentas de IaC.
+
+## Ferramentas Populares
+
+Existem inúmeras ferramentas que possibilitam a codificação de uma infraestrutura, sendo as mais populares:
+
+* Chef;
+* Puppet;
+* Red Hat Ansible Automation Platform;
+* Saltstack;
+* Terraform ;
+* AWS CloudFormation.
+
+# Terraform
+
+O Terraform é uma infraestrutura de código aberto como ferramenta de software de código que fornece um fluxo de trabalho CLI consistente para gerenciar centenas de serviços em nuvem. O Terraform codifica APIs de nuvem em arquivos de configuração declarativos.
+
+## Funcionamento
+
+O Terraform permite que a infraestrutura seja expressa como código em uma linguagem simples e legível por humanos chamada HCL (HashiCorp Configuration Language). Ele lê arquivos de configuração e fornece um plano de execução de alterações, que pode ser revisado para segurança e, em seguida, aplicado e provisionado.
+
+Os provedores extensíveis permitem que o Terraform gerencie uma ampla variedade de recursos, incluindo IaaS, PaaS, SaaS e serviços de hardware.
+
+![Figura 04 - O Funcionamento do Terraform. ](images/funcionamento-terraform.jpg)
+
+## Comandos
+
+### Init
+
+Prepare seu diretório de trabalho para outros comandos.
+
+```
+terraform init
+```
+
+### Validate
+
+Verifique se a configuração é válida.
+
+```
+terraform validate
+```
+
+### Plan
+
+Mostrar as alterações exigidas pela configuração atual.
+
+ ```
+ terraform plan
+ ```
+
+### Apply
+
+Criar ou atualizar infraestrutura.
+
+```
+terraform apply
+```
+
+### Destroy
+
+Destrua a infraestrutura criada anteriormente.
+
+```
+terraform destroy
+```
+
+### Graph
+
+Gerar um gráfico Graphviz das etapas em uma operação.
+
+```
+terraform graph | dot -Tsvg > graph.svg
+```
+
+### Fmt
+
+Reformate sua configuração no estilo padrão.
+
+```
+terraform fmt
+```
