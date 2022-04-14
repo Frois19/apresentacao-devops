@@ -34,23 +34,40 @@ A adoção da Cultura DevOps traz códigos benefícios agregados às suas práti
 
 ![Figura 02 - Os benefícios do DevOps. ](images/beneficios-devops.jpg)
 
-* __Economia de recursos__ - O DevOps deixa o setor de TI mais integrado ao promover uma comunicação entre os times. Com isso, reduzem-se gastos através da geração de menos erros.
+* __Economia de recursos__: O DevOps deixa o setor de TI mais integrado ao promover uma comunicação entre os times. Com isso, reduzem-se gastos através da geração de menos erros.
 
-* __Processos otimizados__ - O DevOps facilita etapas a serem executadas e torna os fluxos mais fluidos e produtivos, isso se deve a automatização de etapas chaves desse fluxos.
+* __Processos otimizados__: O DevOps facilita etapas a serem executadas e torna os fluxos mais fluidos e produtivos, isso se deve a automatização de etapas chaves desse fluxos.
 
-* __Qualidade maior__ - Com a preocupação em se manter a estabilidade dos ambientes provisionados o DevOps favorece uma maior qualidade do que é produzido, garantindo assim que os serviços desenvolvidos sejam estáveis, seguros e confiáveis.
+* __Qualidade maior__: Com a preocupação em se manter a estabilidade dos ambientes provisionados o DevOps favorece uma maior qualidade do que é produzido, garantindo assim que os serviços desenvolvidos sejam estáveis, seguros e confiáveis.
 
-* __Produção mais rápida__ - Com a automação de processos, em especial as etapas de testes de de deploy, as entregas dos serviços produzidos se tornam mais rápidas, sem a necessidade de se alocar várias pessoas para que uma mudança seja aplicada.
+* __Produção mais rápida__: Com a automação de processos, em especial as etapas de testes de de deploy, as entregas dos serviços produzidos se tornam mais rápidas, sem a necessidade de se alocar várias pessoas para que uma mudança seja aplicada.
 
-* __Motivação maior__ - Com todos os resultados, as equipes que adotam o DevOps se tornam mais produtivas, aumentando a confiança de seus membros e trazendo mais motivação a todos por saberem que o que está sendo produzido possui qualidade e confiabilidade.
+* __Motivação maior__: Com todos os resultados, as equipes que adotam o DevOps se tornam mais produtivas, aumentando a confiança de seus membros e trazendo mais motivação a todos por saberem que o que está sendo produzido possui qualidade e confiabilidade.
 
 ## Ciclo DevOps
 
 ![Figura 03 - O Ciclo DevOps. ](images/ciclo-devops.jpg)
 
+* __Planejamento__: fase em que se pensa como será o produto, inicia-se o planejamento e gerenciamento do produto;
+
+* __Codificação__: fase em que o produto começa a tomar forma, os desenvolvedores começar a criar códigos;
+
+* __Build__: fase em que se inicia a integração contínua, etapa em que o código é submetido a uma série de verificações e validações;
+
+* __Teste__: fase onde o código é submetido a testes unitários e validar a cobertura de código;
+
+* __Release__: fase em que o produto é entregue com velocidade e de forma automática, garantindo a qualidade do software;
+
+* __Deploy__: fase de implantação do software desenvolvido, nessa etapa podem ser feitas integrações com o docker, para adicionar containers, e o kubernetes, para orquestrar a aplicação;
+
+* __Operação__: nesta etapa é adotada a infraestrutura como código, podendo-se versionar a infra e escalá-la para serviços de nuvem;
+
+* __Monitoramento__: nesta fase a aplicação implementada e entregue é monitorada a fim de se garantir a qualidade do serviço e a localização de erros e bugs.
+
 ## Praticas do DevOps
 
 ## CI/CD (Integração Contínua e Entrega Contínua)
+
 
 # Infraestrutura Como Código (IaC)
 
@@ -62,9 +79,9 @@ Atraves de arquivos de configuração, que especificam os recursos que a compõe
 
 Para se implementar uam IaC existem dois diferentes tipos de abordagens, sendo elas:
 
-* __Declarativa:__ Essa abordagem define o estado desejado da infraestrutura e seus recursos. Em seu funcionamento essa abordagem mantem uma lista do estado atual dos objetos criados e há compara a cada mudança com o estado desejado;
+* __Declarativa__: Essa abordagem define o estado desejado da infraestrutura e seus recursos. Em seu funcionamento essa abordagem mantem uma lista do estado atual dos objetos criados e há compara a cada mudança com o estado desejado;
 
-* __Imperativa:__ Essa abordagem define os comandos  especificos para se chegar na configuração desejada da infraestrutura. Dessa forma, esses comandos são listados e executados em uma determinada ordem para que o resultado final seja desejado.
+* __Imperativa__: Essa abordagem define os comandos  especificos para se chegar na configuração desejada da infraestrutura. Dessa forma, esses comandos são listados e executados em uma determinada ordem para que o resultado final seja desejado.
 
 ## Vantagens 
 
