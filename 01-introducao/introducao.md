@@ -87,21 +87,21 @@ Resumindo, CI é um conjunto de práticas executadas enquanto os desenvolvedores
 
 # Infraestrutura Como Código (IaC)
 
-O que é conhecido como Infraestrutura como Código nada mais é que o gerenciamento e provisionamento da infraestrutura necessaria a um software por meio de ferramentas que possibilitem codificá-la ao invez de depender de processos manuais.
+O que é conhecido como Infraestrutura como Código nada mais é que o gerenciamento e provisionamento da infraestrutura necessária a um software por meio de ferramentas que possibilitem codificá-la ao invés de depender de processos manuais.
 
-Atraves de arquivos de configuração, que especificam os recursos que a compõem, há uma maior facilidade em de modificar aspectos da infraestrutura, promomendo assim uma maior escalabilidade e controle da mesma.
+Através de arquivos de configuração, que especificam os recursos que a compõem, há uma maior facilidade em modificar aspectos da infraestrutura, promovendo assim uma maior escalabilidade e controle da mesma.
 
 ## Abordagens
 
-Para se implementar uam IaC existem dois diferentes tipos de abordagens, sendo elas:
+Para se implementar uma IaC existem dois diferentes tipos de abordagens, sendo elas:
 
-* __Declarativa__: Essa abordagem define o estado desejado da infraestrutura e seus recursos. Em seu funcionamento essa abordagem mantem uma lista do estado atual dos objetos criados e há compara a cada mudança com o estado desejado;
+* __Declarativa__: Essa abordagem define o estado desejado da infraestrutura e seus recursos. Em seu funcionamento essa abordagem mantém uma lista do estado atual dos objetos criados e há compara a cada mudança com o estado desejado;
 
-* __Imperativa__: Essa abordagem define os comandos  especificos para se chegar na configuração desejada da infraestrutura. Dessa forma, esses comandos são listados e executados em uma determinada ordem para que o resultado final seja desejado.
+* __Imperativa__: Essa abordagem define os comandos específicos para se chegar na configuração desejada da infraestrutura. Dessa forma, esses comandos são listados e executados em uma determinada ordem para que o resultado final seja desejado.
 
 ## Vantagens 
 
-A codificação da infraestrutura tras consigo vantagens que superam apenas a escalabilidade da mesma, sendo essas:
+A codificação da infraestrutura traz consigo vantagens que superam apenas a escalabilidade da mesma, sendo essas:
 
 * Redução de custos;
 * Aumento na velocidade das implantações;
@@ -169,7 +169,7 @@ terraform apply
 
 ### Destroy
 
-Destrua a infraestrutura criada anteriormente.
+Destruir a infraestrutura criada anteriormente.
 
 ```
 terraform destroy
@@ -195,15 +195,15 @@ terraform fmt
 
 ### __Terragrunt__
 
-Terragrunt é uma ferramenta que visa auxiliar o uso do terraform, uma vez que foi criada com o intuito de facilitar a aplicação e gerencia  dos módulos Terraform de forma eficiente.
+Terragrunt é uma ferramenta que visa auxiliar o uso do terraform, uma vez que foi criada com o intuito de facilitar a aplicação e gerência  dos módulos Terraform de forma eficiente.
 
-Seu funcionamento consite em implantar os recursos definidos em todos os módulos do terraform, na sequência correta, usando uma única operação.
+Seu funcionamento consiste em implantar os recursos definidos em todos os módulos do terraform, na sequência correta, usando uma única operação.
 
 ![Figura 05 - O Funcionamento do Terragrunt. ](images/funcionamento-terragrunt.jpg)
 
 A instalação do Terragrunt pode ser feita seguindo os tutorial disponivel em sua propria documentação atraves do seguinte link: https://terragrunt.gruntwork.io/docs/getting-started/install/#install-terragrunt.
 
-Por se tratar de uma ferramenta feita para otimizar a utilização do Terraform alguns de seus comandos possuem correspondencia com comandos do terraform. Seus comandos operam da seguinte forma, ao se executar um comando do Terragrunt o comando terraform correspondente a operação é fornecido em uma 'pilha', onde uma 'pilha' é uma árvore de módulos terragrunt. O comando encontrará recursivamente módulos terragrunt na árvore de diretórios atual e executará o comando terraform em ordem de dependência, exceto pelo comando destroy que ira ser executado na ordem reversa. Exemplos disso são:
+Por se tratar de uma ferramenta feita para otimizar a utilização do Terraform alguns de seus comandos possuem correspondência com comandos do terraform. Seus comandos operam da seguinte forma: ao se executar um comando do Terragrunt o comando Terraform correspondente a operação é fornecido em uma 'pilha', onde uma 'pilha' é uma árvore de módulos terragrunt. O comando encontrará recursivamente módulos Terragrunt na árvore de diretórios atual e executará o comando terraform em ordem de dependência, exceto pelo comando destroy que ira ser executado na ordem reversa. Exemplos disso são:
 
 * __Plan__: Isso irá pesquisar recursivamente no diretório de trabalho atual por quaisquer pastas que contenham módulos Terragrunt e sejam executados `plan` em cada um, simultaneamente, respeitando a ordenação definida via _dependency_ e _dependencies_ blocos.
 
@@ -229,7 +229,7 @@ terragrunt destroy-all
 terragrunt validate-all
 ```
 
-* __Graph-dependencies__: Isso irá pesquisar recursivamente o diretório de trabalho atual para quaisquer pastas que contenham módulos Terragrunt e construir o gráfico de dependência baseado em blocos _dependency_ e _dependencies_. Isso pode produzir saídas como:
+* __Graph-dependencies__: Isso irá pesquisar recursivamente o diretório de trabalho atual para quaisquer pastas que contenham módulos Terragrunt e construir o gráfico de dependência baseado em blocos _dependency_ e _dependencies_. 
 
 ```
 terragrunt graph-dependencies | dot -Tsvg > graph.svg
@@ -239,15 +239,16 @@ terragrunt graph-dependencies | dot -Tsvg > graph.svg
 
 O Terraform Docs é um utilitário para gerar documentação de módulos Terraform em vários formatos de saída.
 
-Pode ser acessado atraves do link: https://github.com/terraform-docs/terraform-docs, onde estão disponiveis as versões mais recentes e seu tutorial de instalação.
+Pode ser acessado através do link: https://github.com/terraform-docs/terraform-docs, onde estão disponíveis as versões mais recentes e seu tutorial de instalação.
 
-Sua execução pode ser feita de varias formas, seja ela atraves de etapas na execução de um pipeline ou de forma manual. A execução manual dessa fermanda pode ser feita atraves do seguinte comando:
+Sua execução pode ser feita de várias formas, seja ela através de etapas na execução de um pipeline ou de forma manual. A execução manual dessa fermanda pode ser feita através do seguinte comando:
+
 
 ```
 terraform-docs markdown table --output-file README.md --output-mode inject /path/to/module
 ```
 
-Sendo assim o arquivo da documentação será gerado em formado markdown com o titulo "README". O modulo documentado é indicado pelo _path_.
+Sendo assim o arquivo da documentação será gerado em formato markdown com o título "README". O módulo documentado é indicado pelo _path_.
 
 # Referências
 
