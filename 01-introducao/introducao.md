@@ -64,10 +64,26 @@ A adoção da Cultura DevOps traz códigos benefícios agregados às suas práti
 
 * __Monitoramento__: nesta fase a aplicação implementada e entregue é monitorada a fim de se garantir a qualidade do serviço e a localização de erros e bugs.
 
-## Praticas do DevOps
 
-## CI/CD (Integração Contínua e Entrega Contínua)
+# Integração Contínua e Entrega Contínua (CI/CD)
 
+_Continuous Integration_ (CI) e _Continuous Delivery_ (CD) significam integração contínua e entrega contínua. 
+
+Em termos muito simples, a CI é uma prática moderna de desenvolvimento de software na qual as alterações incrementais de código são feitas com frequência e confiabilidade. As etapas automatizadas de criação e teste acionadas pelo CI garantem que as alterações de código que estão sendo mescladas no repositório sejam confiáveis. O código é então entregue de forma rápida e transparente como parte do processo de CD.
+
+No mundo do software, CI/CD refere-se à automação que permite que alterações incrementais de código sejam entregues de forma rápida e confiável à produção.
+
+## Importância
+
+CI/CD permite que as organizações publiquem softwares de forma rápida e eficiente. Desta forma o processo para colocar produtos no mercado se torna algo rápido, entregando código continuamente em produção e garantindo um fluxo contínuo de novos recursos e correções por meio de um método de entrega mais eficiente. 
+
+## Diferenças
+
+A integração contínua é uma prática que envolve o time de desenvolvimento fazendo alterações e verificações em seu código. Devido à escala de requisitos e ao número de etapas envolvidas, esse processo é automatizado para garantir que os times possam criar, testar e empacotar seus aplicativos de maneira confiável. A CI ajuda a simplificar as alterações de código, aumentando assim o tempo para que os desenvolvedores façam alterações e contribuam para melhorar o software.
+
+A entrega contínua é a entrega automatizada de código completo para ambientes como teste e desenvolvimento. O CD fornece uma maneira automatizada e consistente para que o código seja entregue a esses ambientes. A implantação contínua é a próxima etapa da entrega contínua. Cada mudança que passa nos testes automatizados é colocada automaticamente em produção, resultando em muitas implementações de produção.
+
+Resumindo, CI é um conjunto de práticas executadas enquanto os desenvolvedores estão escrevendo código, e CD é um conjunto de práticas executadas após a conclusão do código.
 
 # Infraestrutura Como Código (IaC)
 
