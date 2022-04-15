@@ -279,3 +279,9 @@ Jornada DevOps – Como o DevOps agiliza a entrega de qualidade com automação 
 O que é infraestrutura como código (IaC)?. Red Hat, 2020. Disponível em: https://www.redhat.com/pt-br/topics/automation/what-is-infrastructure-as-code-iac. Acesso em: 14 de abril de 2022.
 
 CICD. Synopsys. Disponível em: https://www.synopsys.com/glossary/what-is-cicd.html. Acesso em: 14 de abril de 2022.
+
+KIM, Gene; HUMBLE, Jez; WILLIS, John; DEBOIS, Patrick. Manual de DevOps: como obter agilidade, confiabilidade e segurança em organizações tecnológicas. 1. ed. , 2018.
+
+MUNIZ, Antonio; IRIGOYEN, Analia; SANTOS, Rodrigo; MOUTINHO, Rodrigo. Jornada DevOps. 2. ed., 2020.
+
+KIM, Gene; BEHR, Kevin; SPAFFORD, George. O projeto fênix – Edição comemorativa: um romance sobre TI, DevOps e sobre ajudar o seu negócio a vencer. 1. ed. [S. l.: s. n.], 2020.
