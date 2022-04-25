@@ -14,74 +14,29 @@ Contudo, a recuperação não pode ser vista como algo capaz de reestruturar, po
 
 ## Ameaças
 
-Para entender no que o Disaster Recovery pode ser útil para a sua organização, vale a pena esclarecer algumas das principais — e mais comuns — ameaças que podem atingir o setor de TI da empresa.
-Queda de energia
+Para se entender o real valor de um planejamento de Disaster Recovery, bem como sua utilidade é necessario se ter conhecimento sobre aas principais ameças que podem atigir sua organização no ambito da TI. Sendo as principais:
 
-Essa é uma ameaça óbvia e bastante plausível. Toda e qualquer empresa está vulnerável a esse risco — seja ela detentora de um setor específico de TI ou não.
+* __Queda de energia__: Toda organizaçao esta sucetivem a este risco. As causas para a quesda do fornecimento de energia podem ser as mais diversas, possuindo dimensões muito distanas. Pode ser um problema local, como um curto-circuito, ou um evento que atinge toda uma localidade ( um bairro, uma cidade, uma região). O risco dessa ameaça está na pertubação causada no andamento das atividades, sendo elas paralisadas de forma abrupta. Desta forma o tempo de ociosidade pode acarretar em atrasos nas entregas de produtos e/ou serviços, redução do tirmo de trabalho e eventualmente em perdas de receita. Além disso, os equipamentos podem sofrer danos com essa adversidade. Há, ainda, a chance de ocorrer a perda de importantes dados e informações de negócios.
 
-As causas para uma queda no fornecimento de energia elétrica podem ser as mais diversas e têm dimensões distintas. Pode tanto ser algo local, como um curto-circuito, ou um evento que atinge todo um bairro, cidade ou região.
+* __Roubos__: É fundamental para uma organização garantir a integridade de seus bens e de seus colaboradores. Desta forma é essencial blindar a segurança, garantindo que não hajam furtos de equipamentos, informações sigilosas. Equipamentos furtados podem representar um alto custo financeiro, uma vez que os aparelhos de TI possuem um preço elevado e precisarão ser repostos. O furto de informações sigilosas pode representar uma perca de credibilidade no mercado, alem de possiveis punições no ambito da LGPD.
 
-O corte abrupto na eletricidade perturba o andamento das atividades, pois elas ficam paralisadas. Esse tempo ocioso é sinônimo de atrasos na entrega de produtos e/ou serviços, além de travar o ritmo dos trabalhos, culminando na perda de receita.
+* __Crimes cibernéticos__: Novas falhas e vulnerabilidades são descobertas a cada instantante nos mais diversos sistemas e softwares utilizados, independente dos cuidados tomados para se precaver. Individuos mal intencionados com conhecimento tecnico suficiente podem se aproveitar de problemas para atacar a infraestrutura de uma organização. O intuito desses ataques são o roubo de informações, seja para espionagem industrial, sequestro de dados, etc. Dessa forma é necessario se ter atenção a problemas que podem abrir possibilidades de ataques e se garantir um sistema confiavel de recuperação de arquivos.
 
-Além disso, os equipamentos podem sofrer danos com essa adversidade. Há, ainda, a chance de ocorrer a perda de importantes dados e informações de negócios.
+* __Falhas no equipamento__: Todo equipamento esta sujeito a alguma falha ou mau funcionamento, por mais novo e avançado que ele seja. Panes no sistema, execuções de processos travarem ou estarem muito lentas, problemas de inicialização e superaquecimentos são os principais motivos para essas falhas. Os impactos gerados por esses problemas em geral são a paralização das operações ate que o problema seja resolvido, acarretando perdas financeiras devido as suspensão das atividades e perdas no ritmo de entrega dos envolvidos.Uma interrupção como essa é extremamente prejudicial para os negócios, já que alem da suspensão das atividades recursos tem de ser alocados para que o problema seja solucionado, resultando em mais gastos.
 
-### 1. Roubos
+* __Impactos ambientais e desastres naturais__: Esse tipo de problema é algo que não ocorre sempre, sendo problemas eventuais mas que geram grande impactos. Chuvas torrenciais, terremotos e outras catástrofes envolvendo o meio ambiente são passíveis de acontecer e, de certo modo, até esperadas. Fenômenos dessa natureza podem abalar o fornecimento de energia ou, então, causar danos materiais ao estabelecimento, como a destruição parcial ou total das estruturas físicas.
 
-A segurança de um estabelecimento comercial é de suma relevância. Essa preocupação se justifica, sobretudo, em relação aos recursos humanos da empresa, ou seja, a integridade física das pessoas que nela trabalham.
-
-Além disso, a integridade material do empreendimento também não deve ser esquecida. Manter uma boa infraestrutura de TI nem sempre é algo barato. Em geral, são equipamentos, ferramentas e máquinas que possuem um alto custo de aquisição.
-
-Assim, é fundamental blindar a segurança da companhia — em especial, a do setor de TI. No caso de furto dos equipamentos — além do roubo de informações sigilosas —, há um alto custo financeiro, pois esses aparelhos precisarão ser comprados novamente — o que vai impactar negativamente o orçamento.
-
-### 2. Crimes cibernéticos
-
-Mesmo com todos os cuidados de segurança, falhas e vulnerabilidades são descobertas a todo instante nos mais diversos sistemas operacionais e softwares utilizados pelas empresas.
-
-Pessoas má intencionadas — e com conhecimento técnico suficiente — podem aproveitar esses problemas para atacar toda a rede de uma empresa. Essas ofensivas podem ter diferentes objetivos, como o roubo de informações para espionagem industrial ou o pedido de resgate, como acontece com os ransomwares.
-
-Por isso, é preciso ter a atenção redobrada para esses problemas e garantir um sistema confiável de recuperação de arquivos.
-
-### 3. Falhas no equipamento
-
-Por mais avançado que seja um equipamento, ele está sujeito a alguma falha. O sistema pode ter uma pane, os softwares podem travar, equipamentos excessivamente lentos, os computadores podem não iniciar ou ficarem superaquecidos e queimarem etc.
-
-Nesses momentos, o resultado, normalmente, é sempre o mesmo: se um equipamento falhar, as operações ficarão suspensas até que o problema seja resolvido.
-
-Efetiva-se, assim, uma corrente: falhas de equipamentos levam à paralisação dos serviços, o que demanda um investimento de tempo e dinheiro para a realização de consertos e causa atrasos nos fluxos de trabalho. Por fim, há um atraso nas entregas, perda de dinheiro e redução da credibilidade para com os clientes.
-
-Ou seja, uma interrupção como essa é extremamente prejudicial para os negócios.
-
-### 4. Impactos ambientais e desastres naturais
-
-Desastres naturais ou problemas causados por impactos ambientais são eventuais. Não é algo que ocorre todo mês, por exemplo. No entanto, frequentemente recebemos notícias de acontecimentos dessa natureza e suas consequências devastadoras.
-
-Chuvas torrenciais, terremotos e outras catástrofes envolvendo o meio ambiente são passíveis de acontecer e, de certo modo, até esperadas. Fenômenos dessa natureza podem abalar o fornecimento de energia ou, então, causar danos materiais ao estabelecimento, como a destruição parcial ou total das estruturas físicas.
-
-### 5. Erros humanos
-
-No manejo dos equipamentos de TI, um colaborador pode cometer um erro e, com isso, avariar os equipamentos e os softwares. Além disso, há o risco de um funcionário deliberadamente danificar dispositivos e dados dos sistemas
+* __Erros humanos__: No manejo dos equipamentos de TI, um colaborador pode cometer um erro e, com isso, avariar os equipamentos e os softwares. Além disso, há o risco de se danificar dispositivos e dados dos sistemas.
 
 ## Benefícios
 
 O Disaster Recovery quando bem implantando, proporciona diversos benefícios para as empresas:
 
-### 1. Custos reduzidos
+1. __Custos reduzidos__: A recuperação de dados por meio do armazenamento em nuvem tem como um dos grandes benefícios a economia para a empresa. Os backups que necessitam de servidor são mais caros, pois, além do consumo de energia, também precisam de manutenção e atualizações constantes. Com um plano de Disaster Recovery e as soluções em nuvem, a organização paga somente o que for usado, além da facilidade de aumentar o serviço quando necessário.
 
-A recuperação de dados por meio do armazenamento em nuvem tem como um dos grandes benefícios a economia para a empresa. Os backups que necessitam de servidor são mais caros, pois, além do consumo de energia, também precisam de manutenção e atualizações constantes.
+2. __Implantação facilitada__: Para colocar um plano de Disaster Recovery em ação não é necessário investir em equipamentos onerosos, nem realizar complexos processos. E o primeiro passo é selecionar um parceiro especialista em infraestrutura de TI, que ficará responsável pela execução de toda a estratégia. Sem a necessidade de servidores e equipamentos robustos para a realização de backup na nuvem, a implantação dessa ferramenta é rápida e não impacta na rotina da organização.
 
-Com um plano de Disaster Recovery e as soluções em nuvem, a organização paga somente o que for usado, além da facilidade de aumentar o serviço quando necessário.
-
-### 2. Implantação facilitada
-
-Para colocar um plano de Disaster Recovery em ação não é necessário investir em equipamentos onerosos, nem realizar complexos processos. E o primeiro passo é selecionar um parceiro especialista em infraestrutura de TI, que ficará responsável pela execução de toda a estratégia.
-
-Sem a necessidade de servidores e equipamentos robustos para a realização de backup na nuvem, a implantação dessa ferramenta é rápida e não impacta na rotina da organização.
-
-### 3. Segurança para os dados
-
-Esse é o grande objetivo do Disaster Recovery e também sua maior vantagem. Ao manter os dados da organização seguros, os colaboradores ganham produtividade e confiança para desempenharem seus trabalhos.
-
-Além disso, em momentos de imprevistos, a área de TI pode focar na solução do problema e não precisa se preocupar com uma possível perda de arquivos e informações. Afinal, eles estão em segurança na nuvem.
+3. __Segurança para os dados__: Esse é o grande objetivo do Disaster Recovery e também sua maior vantagem. Ao manter os dados da organização seguros, os colaboradores ganham produtividade e confiança para desempenharem seus trabalhos. Além disso, em momentos de imprevistos, a área de TI pode focar na solução do problema e não precisa se preocupar com uma possível perda de arquivos e informações. Afinal, eles estão em segurança na nuvem.
 
 ## Boas Práticas
 
