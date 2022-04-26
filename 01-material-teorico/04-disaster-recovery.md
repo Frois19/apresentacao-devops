@@ -103,8 +103,8 @@ Tudo isso deve ser monitorado e controlado pelo grupo de gerentes. Dessa forma, 
 
 Para tornar o plano de Disaster Recovery ainda mais eficiente, existem praticas que auiliam as organizações, sendo elas:
 
-1. __Distribuir funções específicas__: Identifique quais colaboradores têm os conhecimentos necessários para realizar determinadas funções durante uma crise. Esses funcionários devem demonstrar um alto grau de comprometimento, resiliência e perícia em casos de urgência.
+* __Distribuir funções específicas__: Identifique quais colaboradores têm os conhecimentos necessários para realizar determinadas funções durante uma crise. Esses funcionários devem demonstrar um alto grau de comprometimento, resiliência e perícia em casos de urgência.
 
-2. __Priorizar a segurança do RH__: Muito se tem falado sobre as atividades de recuperação de dados, mas a parte mais importante e sutil de tudo isso foi esquecida: as pessoas. Ao projetar estratégias e planos de recuperação de desastres, lembre-se de medir os riscos que cada colaborador pode enfrentar no caso de um desastre, além de formas de minimizá-los. 
+* __Priorizar a segurança do RH__: Muito se tem falado sobre as atividades de recuperação de dados, mas a parte mais importante e sutil de tudo isso foi esquecida: as pessoas. Ao projetar estratégias e planos de recuperação de desastres, lembre-se de medir os riscos que cada colaborador pode enfrentar no caso de um desastre, além de formas de minimizá-los. 
 
 Mais do que meras ações reparadoras, um plano de Disaster Recovery deve ser encarado como um conjunto de medidas preventivas contra perdas e danos. Afinal, é fundamental evitar cenários negativos em vez de precisar remediá-los constantemente. A nova LGPD pune severamente empresas que deixam vazar os dados sensíveis de seus usuários, e um plano de contingência deve prever esse tipo de acontecimento.
