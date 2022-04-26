@@ -40,57 +40,28 @@ O Disaster Recovery quando bem implantando, proporciona diversos benefícios par
 
 ## Boas Práticas
 
-Agora que você já sabe o que é um Disaster Recovery e quais são as principais ameaças que ele pode contornar, chegou a hora de entender quais são as boas práticas que guiam um plano de recuperação de desastres. Veja mais a seguir.
-Conheça as ameaças em potencial
+Existem boas práticas que guiam um plano de recuperação de desastres.Sendo as principais:
 
-Muitas organizações começam a traçar um plano de recuperação sem ao menos identificar quais possíveis ameaças podem prejudicar seus sistemas, mas essa abordagem pode gerar até mais prejuízos.
+1. __Conhecer as possiveis ameaças__: Muitas organizações começam a traçar um plano de recuperação sem ao menos identificar quais possíveis ameaças podem prejudicar seus sistemas, mas essa abordagem pode gerar até mais prejuízos.É essencial incluir, no plano de recuperação, medidas de segurança robustas, como fazer o controle de acesso do sistema, incluir firewalls para proteger a rede de ciberataques, fazer backups dos dados e instalar antivírus e anti-spam.
 
-É essencial incluir, no plano de recuperação, medidas de segurança robustas, como fazer o controle de acesso do sistema, incluir firewalls para proteger a rede de ciberataques, fazer backups dos dados e instalar antivírus e anti-spam.
-Elabore inventários de software e hardware
 
-Para manter a infraestrutura de TI da empresa sob controle, é indispensável ter uma ampla noção de todos os seus ativos. É preciso incluir no plano um inventário sobre cada dispositivo utilizado, suas funções e recursos gastos por departamento da empresa.
+2. __Elaborar inventários de software e hardware__: Para manter a infraestrutura de TI da empresa sob controle, é indispensável ter uma ampla noção de todos os seus ativos. É preciso incluir no plano um inventário sobre cada dispositivo utilizado, suas funções e recursos gastos por departamento da empresa. Esse inventário permite aos gestores saberem exatamente quais equipamentos fazem parte da empresa. A partir disso, fica mais fácil analisar possíveis danos e escolher as melhores soluções para cada situação.
 
-Esse inventário permite aos gestores saberem exatamente quais equipamentos fazem parte da empresa. A partir disso, fica mais fácil analisar possíveis danos e escolher as melhores soluções para cada situação.
+3. __Criar planos de backup__: Estabelecer um backup de rotina é essencial para qualquer plano de Disaster Recovery bem-sucedido. A equipe de TI deve criar uma lógica definida e documentada para que seja executada em momentos estratégicos, evitando a perda de dados entre uma cópia e outra. Ao desenvolver o plano, a empresa deve considerar suas necessidades, definir onde armazenar os backups — como migrar para cloud computing e fazer a gestão em cloud — e com que frequência eles devem ser realizados. Tudo isso deve ser documentado e disponibilizado a todos os colaboradores.
 
-### 1. Crie planos de backup
+4. __Estabelecer uma tolerância à perda de dados__: A recuperação de desastres só é concluída quando a organização consegue definir sua tolerância para possíveis desastres, ou seja, por quanto tempo consegue se manter com a interrupção de suas operações. Esse problema pode ser medido usando o Objetivo do Ponto de Recuperação (RPO) e o Tempo de Recuperação (RTO). O RPO analisa as perdas do negócio — quanto maior forem, indica que os aplicativos são mais resilientes. Se o resultado for menor, é indicado fazer backups com mais frequência.Durante esse tempo, o RTO é responsável por medir o tempo de recuperação. Quando as suas taxas estão baixas, significa que você está trabalhando mais rápido para evitar perdas. Esse é um parâmetro que deve orientar a equipe para saber o tempo limite para recuperar as perdas.
 
-Estabelecer um backup de rotina é essencial para qualquer plano de Disaster Recovery bem-sucedido. A equipe de TI deve criar uma lógica definida e documentada para que seja executada em momentos estratégicos, evitando a perda de dados entre uma cópia e outra.
+5. __Fazer testes e auditorias__: Para garantir o sucesso do plano, é necessário realizar auditorias e testes periódicos. Dessa forma, a organização pode identificar o que precisa ser consertado ou melhorado. Como resultado dessa prática, a empresa é capaz de fazer alterações e melhorias antes que ocorram danos. Tudo pode ser analisado com calma, seguindo os critérios do plano e as necessidades da empresa.
 
-Ao desenvolver o plano, a empresa deve considerar suas necessidades, definir onde armazenar os backups — como migrar para cloud computing e fazer a gestão em cloud — e com que frequência eles devem ser realizados. Tudo isso deve ser documentado e disponibilizado a todos os colaboradores.
+6. __Fazer avaliações da estrutura interna de TI__: É imprescindível conhecer toda a infraestrutura de TI antes de elaborar o plano. Sem ter o conhecimento da real capacidade dos equipamentos, não é possível agir de forma eficiente na ocorrência de um desastre que agrida severamente a companhia. Assim, mapeie todos os recursos de hardware, software e também de pessoal, pois mesmo as melhores técnicas não podem ser executadas sozinhas. É preciso contar com pessoas qualificadas e bem preparadas para lidar com situações emergenciais.
 
-### 2. Estabeleça uma tolerância à perda de dados
+7. __Promover a integração dos setores da empresa__: Um ataque cibernético pode ocorrer em uma velocidade muito grande. Nesse sentido, o plano deve ser colocado em ação o mais rápido possível, afinal de contas estamos falando da sobrevivência da empresa. Assim, é importante contar com a integração entre os setores, pois provavelmente será necessária uma comunicação ágil e eficiente nesses momentos. Todos devem saber o que deve ser feito, sem titubear.
 
-A recuperação de desastres só é concluída quando a organização consegue definir sua tolerância para possíveis desastres, ou seja, por quanto tempo consegue se manter com a interrupção de suas operações.
+8. __Ter profissionais de gestão de crises__: Pode ser que seja necessário ir ainda mais além em relação à equipe disponível para efetuar as ações do plano de Disaster Recovery. Estamos falando de profissionais especializados e altamente treinados em situações desse tipo. Trata-se da equipe de gestão de crise que, a depender do tamanho do negócio, pode situar-se no quadro de colaboradores ou ser terceirizada. O importante é que tenham passado por rigorosos testes de conhecimento no assunto.
 
-Esse problema pode ser medido usando o Objetivo do Ponto de Recuperação (RPO) e o Tempo de Recuperação (RTO), conforme explicado anteriormente. O RPO analisa as perdas do negócio — quanto maior forem, indica que os aplicativos são mais resilientes. Se o resultado for menor, é indicado fazer backups com mais frequência.
+9. __Ser participante de um bom modelo de governança de TI__: A melhor indicação é buscar por um modelo de governança de TI que se adéque às necessidades da organização. Em relação ao Disaster Recovery, existe um plano voltado para lidar com esse tipo de situação. É o Framework Risk IT, que foi elaborado pela Information Systems Audit and Control Association — ISACA. Entre as premissas desse modelo de governança de TI, podemos citar o total conhecimento da tolerância ao risco que a empresa tem, o modo de efetuar a tomada de decisões, a integração do departamento de TI com os demais setores da organização e o entendimento de como lidar com a situação de ameaça.
 
-Durante esse tempo, o RTO é responsável por medir o tempo de recuperação. Quando as suas taxas estão baixas, significa que você está trabalhando mais rápido para evitar perdas. Esse é um parâmetro que deve orientar a equipe para saber o tempo limite para recuperar as perdas.
-
-### 3. Faça testes e auditorias
-
-Para garantir o sucesso do plano, é necessário realizar auditorias e testes periódicos. Dessa forma, a organização pode identificar o que precisa ser consertado ou melhorado. Como resultado dessa prática, a empresa é capaz de fazer alterações e melhorias antes que ocorram danos. Tudo pode ser analisado com calma, seguindo os critérios do plano e as necessidades da empresa.
-
-### 4. Faça uma avaliação da estrutura interna de TI
-
-É imprescindível conhecer toda a infraestrutura de TI antes de elaborar o plano. Sem ter o conhecimento da real capacidade dos equipamentos, não é possível agir de forma eficiente na ocorrência de um desastre que agrida severamente a companhia.
-
-Assim, mapeie todos os recursos de hardware, software e também de pessoal, pois mesmo as melhores técnicas não podem ser executadas sozinhas. É preciso contar com pessoas qualificadas e bem preparadas para lidar com situações emergenciais.
-
-### 5. Promova a integração dos setores da empresa
-
-Um ataque cibernético pode ocorrer em uma velocidade muito grande. Nesse sentido, o plano deve ser colocado em ação o mais rápido possível, afinal de contas estamos falando da sobrevivência da empresa. Assim, é importante contar com a integração entre os setores, pois provavelmente será necessária uma comunicação ágil e eficiente nesses momentos. Todos devem saber o que deve ser feito, sem titubear.
-
-### 6. Tenha profissionais de gestão de crises
-
-Pode ser que seja necessário ir ainda mais além em relação à equipe disponível para efetuar as ações do plano de Disaster Recovery. Estamos falando de profissionais especializados e altamente treinados em situações desse tipo. Trata-se da equipe de gestão de crise que, a depender do tamanho do negócio, pode situar-se no quadro de colaboradores ou ser terceirizada. O importante é que tenham passado por rigorosos testes de conhecimento no assunto.
-
-### 7. Seja participante de um bom modelo de governança de TI
-
-A melhor indicação é buscar por um modelo de governança de TI que se adéque às necessidades da organização. Em relação ao Disaster Recovery, existe um plano voltado para lidar com esse tipo de situação. É o Framework Risk IT, que foi elaborado pela Information Systems Audit and Control Association — ISACA.
-
-Entre as premissas desse modelo de governança de TI, podemos citar o total conhecimento da tolerância ao risco que a empresa tem, o modo de efetuar a tomada de decisões, a integração do departamento de TI com os demais setores da organização e o entendimento de como lidar com a situação de ameaça.
-
-## Estratégias
+<!-- ## Estratégias
 
 Definir prioridades é determinar quais dados, informações, documentos, setores, operações e processos são prioritários — e quais são “dispensáveis”. A partir desse tipo de diferenciação, é possível evidenciar os documentos que devem receber um cuidado mais apurado.
 
@@ -126,32 +97,14 @@ Como o Disaster Recovery tem o objetivo de restaurar sistemas e dados, é essenc
 
 Além disso, eles devem estar cientes dos riscos e da necessidade de atualizar os sistemas usados ​​em suas rotinas. É conveniente ter uma integração real do setor de TI com os demais departamentos que compõem a empresa.
 
-Tudo isso deve ser monitorado e controlado pelo grupo de gerentes. Dessa forma, é possível estimular a equipe e exigir um forte comprometimento dos colaboradores nas adversidades.
+Tudo isso deve ser monitorado e controlado pelo grupo de gerentes. Dessa forma, é possível estimular a equipe e exigir um forte comprometimento dos colaboradores nas adversidades. -->
 
 ## Cuidados a serem tomados
 
-Para tornar o plano de Disaster Recovery ainda mais eficiente, separamos algumas práticas que ajudarão bastante a sua empresa. Acompanhe a seguir.
+Para tornar o plano de Disaster Recovery ainda mais eficiente, existem praticas que auiliam as organizações, sendo elas:
 
-### 1. Distribua funções específicas
+1. __Distribuir funções específicas__: Identifique quais colaboradores têm os conhecimentos necessários para realizar determinadas funções durante uma crise. Esses funcionários devem demonstrar um alto grau de comprometimento, resiliência e perícia em casos de urgência.
 
-Identifique quais colaboradores têm os conhecimentos necessários para realizar determinadas funções durante uma crise. Esses funcionários devem demonstrar um alto grau de comprometimento, resiliência e perícia em casos de urgência.
+2. __Priorizar a segurança do RH__: Muito se tem falado sobre as atividades de recuperação de dados, mas a parte mais importante e sutil de tudo isso foi esquecida: as pessoas. Ao projetar estratégias e planos de recuperação de desastres, lembre-se de medir os riscos que cada colaborador pode enfrentar no caso de um desastre, além de formas de minimizá-los. 
 
-### 2. Priorize a segurança do RH
-
-Muito se tem falado sobre as atividades de recuperação de dados, mas a parte mais importante e sutil de tudo isso foi esquecida: as pessoas. Ao projetar estratégias e planos de recuperação de desastres, lembre-se de medir os riscos que cada colaborador pode enfrentar no caso de um desastre, além de formas de minimizá-los.
-
-Mais do que meras ações reparadoras, um plano de Disaster Recovery deve ser encarado como um conjunto de medidas preventivas contra perdas e danos. Afinal, é fundamental evitar cenários negativos em vez de precisar remediá-los constantemente. A nova LGPD pune severamente empresas que deixam vazar os dados sensíveis de seus usuários, e um plano de contingência deve prever esse tipo de acontecimento. Conte com um bom parceiro de negócios para implantar seu DR, como a SantoDigital.
-
-Referências:
-
-https://www.penso.com.br/disaster-recovery-o-que-e-e-seus-beneficios/
-
-https://www.meupositivo.com.br/panoramapositivo/disaster-recovery/
-
-https://blog.wittel.com/tudo-sobre-disaster-recovery/
-
-https://solvimm.com/blog/as-4-principais-estrategias-de-disaster-recovery-dr/
-
-https://santodigital.com.br/disaster-recovery/
-
-
+Mais do que meras ações reparadoras, um plano de Disaster Recovery deve ser encarado como um conjunto de medidas preventivas contra perdas e danos. Afinal, é fundamental evitar cenários negativos em vez de precisar remediá-los constantemente. A nova LGPD pune severamente empresas que deixam vazar os dados sensíveis de seus usuários, e um plano de contingência deve prever esse tipo de acontecimento.

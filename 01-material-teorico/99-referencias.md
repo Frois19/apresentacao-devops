@@ -33,3 +33,14 @@ KIM, Gene; HUMBLE, Jez; WILLIS, John; DEBOIS, Patrick. Manual de DevOps: como ob
 MUNIZ, Antonio; IRIGOYEN, Analia; SANTOS, Rodrigo; MOUTINHO, Rodrigo. Jornada DevOps. 2. ed., 2020.
 
 KIM, Gene; BEHR, Kevin; SPAFFORD, George. O projeto fênix – Edição comemorativa: um romance sobre TI, DevOps e sobre ajudar o seu negócio a vencer. 1. ed. [S. l.: s. n.], 2020.
+
+
+https://www.penso.com.br/disaster-recovery-o-que-e-e-seus-beneficios/
+
+https://www.meupositivo.com.br/panoramapositivo/disaster-recovery/
+
+https://blog.wittel.com/tudo-sobre-disaster-recovery/
+
+https://solvimm.com/blog/as-4-principais-estrategias-de-disaster-recovery-dr/
+
+https://santodigital.com.br/disaster-recovery/
